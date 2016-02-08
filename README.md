@@ -6,7 +6,7 @@ update a haproxy instance accordingly.
 Entries have the form:
 
 - /services/entryname
-- /comfig/entryname/scheme
+- /config/entryname/scheme
 	- Possible values http,https,tcp
 - /config/entryname/host_port
 	- Optional, listen on this port for incoming requests to this entry
