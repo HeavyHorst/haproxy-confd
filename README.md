@@ -6,11 +6,11 @@ update a haproxy instance accordingly.
 Entries have the form:
 
 - /services/entryname
-- /services/entryname/scheme
+- /comfig/entryname/scheme
 	- Possible values http,https,tcp
-- /services/entryname/host_port
+- /config/entryname/host_port
 	- Optional, listen on this port for incoming requests to this entry
-- /services/entryname/hosts/[1,2,3,4]
+- /services/entryname/[1,2,3,4]
 	- Value is endpoints of IP:Port
 
 If the value of /config/services/ssl_support is "true" then ssl is
