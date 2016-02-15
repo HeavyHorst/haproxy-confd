@@ -38,4 +38,4 @@ If the host_port entry is given a port value then
 
 http://foo.com:8080
 
-will also forward to the correct backend. For tcp services you always have to set the host_port, because of the missing header data.
+will also forward to the correct backend. For tcp services you always have to set the host_port, because of the missing header fields.
