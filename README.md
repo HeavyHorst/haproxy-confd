@@ -5,21 +5,11 @@ update a haproxy instance accordingly.
 Entries have the form:
 
 - /config/entryname/scheme 
- - Possible values http,https,tcp
+ - Possible values http,tcp
 - /config/entryname/host_port
 	- Optional, listen on this port for incoming requests to this entry
 - /services/entryname/[1,2,3,4]
 	- Value is endpoints of IP:Port
-
-## SSL termination
-If the value of /config/services/ssl_support is "true" then ssl is
-activated.
-This works in the following way:
-
-> The ssl is terminated when hitting haproxy, and continues forward as a
-> plain http request. SSL .pem files must be mounted in /keys folder.
-> Haproxy will use this folder as crt. This means that there must only
-> be .pem files in the folder, and that there MUST be at least one.
 
 ## Examples
 ```
