@@ -1,2 +1,2 @@
 #!/bin/sh
-s6-svscanctl -t /s6/confd
+s6-svscanctl -t /s6
