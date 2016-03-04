@@ -16,7 +16,7 @@ Entries have the form:
 docker run \
    --net=host \
    --name haproxy \
-   -e PREFIX=/
+   -e PREFIX=/ \
    quay.io/kaufmann_r/haproxy-confd
 ```
 
