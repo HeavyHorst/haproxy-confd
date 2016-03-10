@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:edge
 
 ENV VERSION 0.12.1-alpha
 ENV GOPATH /go
