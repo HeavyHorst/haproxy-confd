@@ -1,6 +1,6 @@
 FROM alpine
 
-ENV VERSION 0.12.0-alpha
+ENV VERSION 0.12.1-alpha
 ENV GOPATH /go
 ENV PATH $GOPATH/bin:/usr/local/go/bin:$PATH
 ENV GO15VENDOREXPERIMENT 1
